@@ -46,3 +46,33 @@ button {
 button:hover {
   background: #888;
 }
+.history {
+  margin-top: 20px;
+  background: #333;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  width: 250px;
+}
+
+.history h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.history li {
+  font-size: 0.9em;
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+}
+
