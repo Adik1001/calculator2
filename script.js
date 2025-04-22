@@ -7,22 +7,6 @@ function clearDisplay() {
 }
 
 function calculate() {
-  try {
-    const result = eval(document.getElementById("display").value);
-    document.getElementById("display").value = result;
-  } catch {
-    document.getElementById("display").value = "Error";
-  }
-}
-function append(value) {
-  document.getElementById("display").value += value;
-}
-
-function clearDisplay() {
-  document.getElementById("display").value = "";
-}
-
-function calculate() {
   const display = document.getElementById("display");
   const expression = display.value;
 
