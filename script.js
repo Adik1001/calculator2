@@ -23,5 +23,5 @@ function addToHistory(entry) {
   const historyList = document.getElementById("historyList");
   const li = document.createElement("li");
   li.textContent = entry;
-  historyList.prepend(li); // most recent first
+  historyList.prepend(li); 
 }
